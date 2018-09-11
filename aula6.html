@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Aula 6</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<form method="Post" action="teste.php">
+<fieldset><legend>Cadastro de Clientes</legend>
+	<!--pode fechar o input com />
+placeholder - dica para o usuario com a mensagemzinha invisivel
+fieldset - agrupamentos de dados
+legend - legenda
+input type - para criar a caixa de entrada
+maxlength - para definir a quantidade de caracteres 
+size - tamanho da caixa do input
+label - criar rotulo
+radio - uma coisa ou a outra-->
+<label for "n"><p>Nome:<input type="text" id="n" name="nome" maxlength=40 size=30 placeholder="Nome completo" /> </label></p>
+<label for "e"><p>Endereço:<input type="text" id="e" name="endereço" maxlength=50 size=30 placeholder="Endereço Completo" /></label></p>
+<label for "m"><p>Email:<input type="email" id="m" name="endereço" maxlength=50 size=30 placeholder="Digite seu email" /></label></p>
+<label for "s"><p>Senha:<input type="password" id="s" name"senha" maxlength=20 size=30 placeholder="Digite sua senha" /></label></p>
+<label for "d"><p>Data de Nascimento:<input type="date"> <!--nao precisa colocar essa porrada de coisa no-->
+<label for "g"><p>Gênero:<input type="radio" name="genero" id="h">Masculino</label>
+<label for "g"><input type="radio" name="genero" id="f">Feminino</label>
+
+<fieldset><legend>Área de Interesse</legend>
+<p><label for "j">Esporte<input type="checkbox" id="j" checked>
+	<p><label for "i">Informática<input type="checkbox" id ="i">
+		<p><label for "w">Dança<input type="checkbox" id="w">
+			<p><label for "x">Outros<input type="checkbox" id"w">
+			</fieldset>
+
+
+<br><input type="submit" name="envie" value="Envie" />
+
+
+</fieldset>
+</form>
+
+</body>
+</html>
