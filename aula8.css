@@ -1,0 +1,49 @@
+p{
+font-size:15pt;
+font-family:"Tahoma";
+color:#FF0000 /*como nao tem mais atributo, nao precisa do ;*/
+}
+/*exemplo de grupo de seletores usando id # */
+#p1{
+	font-size:15pt;
+	font-family:"Bodoni";
+	color:#6600FF
+}
+#p2{
+	font-size:15pt;
+	font-family:"Bodoni";
+	color:#6600FF
+}
+#p3{
+	font-size:15pt;
+	font-family:"Bodoni";
+	color:#6600FF
+}
+#p4{
+	font-size:15pt;
+	font-family:"Bodoni";
+	color:#6600FF
+}
+#p5{
+	font-size:15pt;
+	font-family:"Bodoni";
+	color:#6600FF;
+	border:10px inset #6600FF
+}
+/*exemplo de grupo de seletores usando agrupamento*/
+#p1,#p2,#p3,#p4{
+font-size:15pt;
+font-family:"Bodoni";
+color:#6600FF 
+}
+/*exemplo com seletor classe */
+.txt{
+	font-family:"Bodoni";
+	color:#0000FF;
+	font-weight:900 /*comando para inserir a quantidade de negrito [100-900], lighter é sem*/ 
+}
+body{
+	background-color:#00FFFF;
+	background-image:url("gif.gif");
+	background-repeat:no-repeat
+}
