@@ -1,0 +1,50 @@
+h1{
+	text-indent:10px; /*propriedade usada para*/
+	letter-spacing:-4px; /*espaço entre letras*/
+	word-spacing:10px; /*espaço entre palavras*/
+	border:6px dotted #CC6699;
+	border-radius:45px;
+	background-clip:border-box; /*a cor fica dentro da borda*/
+	background-color:#007BA7
+}
+h2{
+	border:6px dotted #CC6699;
+	border-radius:45px;
+	background-color:#731Db1;
+	background-clip:padding-box;
+}
+#a{
+	border-left:6px solid #FF0000;
+	background-color:#00FFFF
+}
+#b{
+	border-bottom:6px dotted #FF0000;
+	background-color:#9360DB
+}
+#c{
+	border-right: 6px dashed #00FA9A;
+	background-color:#FF0000
+}
+#d{
+	border-top: 6px;
+	border-color: #00FA9A;
+	border-style: double;
+	background-color: #7FFF00
+}
+#e{
+	border-top: 6px ridge;
+	border-left: 6px groove;
+	border-right: 6px outset;
+	border-bottom: 6px inset;
+	background-color:#9360DB;
+	/*dotted-borda pontilhada;
+	solid  - borda com linha solida;
+	dashed - borda tracejada;
+	double - borda com linha dupla;
+	dotted - borda com pontinhos;
+	groove - borda com estilo 3d;
+	ridge  - borda com estilo 3d com cores ao contrario;
+	inset  - efeito 3d de baixo relevo;
+	outset - efeito 3d de alto relevo;
+	none   - sem borda; */ 
+}
