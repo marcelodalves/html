@@ -1,0 +1,38 @@
+form{
+	width:700px;
+	margin:auto;
+}
+legend{
+	color:#1979FF;
+	font-size:13pt;
+	font-family:Tahoma;
+	font-weight:bold;
+}
+fieldset{
+	border-color:#20B2AA;
+	margin:13px;
+}
+#sex{
+	border-color:#8A2BE2;
+	width:200px;
+	background:url("gif.gif") repeat;
+}
+#endereco{
+	border-color:#E32636;
+	background:url("ciro.gif") repeat;
+}
+#id{
+	background:url("dog.jpg") repeat;
+}
+#msg{
+	background:url("ciro1.gif") no-repeat;
+}
+input:hover{
+	background-color:#cecece;
+}
+input,textarea{
+	font-size:13pt;
+	font-family:Verdana;
+	background-color:rgba (255,255,255,0.8);
+	
+}

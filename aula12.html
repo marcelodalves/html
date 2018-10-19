@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aula 12</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="aula12.css">
+</head>
+<body>
+<form method="Post">
+<fieldset id="id"><legend>Identificação do Usuário</legend>
+<p><label for="a">Nome:<input type="text" id="a" name="nome" placeholder="Nome completo" /></p></label>
+<p><label for="b">Senha:<input type="password" id="b" name="senha" placeholder="8 digitos" maxlength=8 /></p></label>
+<p><label for="c">Email:<input type="email" id="c" name="email" placeholder="Email" /></p></label>
+<fieldset id="sex"><legend>Sexo</legend>
+<p><label for="d">Masculino:<input type="radio" id="d" name="sexo" /></p></label>
+<p><label for="e">Feminino:<input type="radio" id="e" name="sexo" /></p></label>
+</fieldset>
+<p><label for="f">Data de Nascimento:<input type="date" id="f" name="data" /></p></label>
+</fieldset>
+<fieldset id="endereco"><legend>Endereço do usuario:</legend>
+<p><label for="g">Logradouro:<input type="text" id="g" name="logr" placeholder="Rua, Av., Trav." /></p></label>
+<p><label for="h">Número:<input type="text" id="h" name="numero" /></p></label>
+<p><label for="i">Cidade:<input type="text" id="i" name="cidade" /></p></label>
+<p><label for="j">Estado:<select>
+<option>RJ</option>
+<option>SP</option>
+<option>MG</option>
+<option>ES</option>
+</select>
+</fieldset>
+<fieldset id="msg"><legend>Mensagem do usuário</legend>
+<p>Grau de Risco: Min<input type="range" min=0 max=40 />Max</p>
+<p>Mensagem:</p>
+<textarea rows=10 cols=30></textarea>
+
+
+</body>
+</html>
