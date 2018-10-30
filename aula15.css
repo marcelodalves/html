@@ -1,0 +1,30 @@
+#ab{
+	background-color:#cecece;
+	width:250px;
+	height:200px;
+	border:4px solid #AABBCC;
+	padding:30px;
+	float:left;
+}
+
+#cd{
+	background-color:#AABBCC;
+	width:250px;
+	border:4px solid #CECECE;
+	padding:30px;
+	float:right;
+}
+#container{
+	border:2px solid black;
+	/*width:1028px; essa forma define a largura fixa*/
+	width:60%;/*para definir a largura atraves da largura liquida,não pode esquecer de definir o tamanho minimo da largura*/
+	min-width:400px;
+	margin:0px auto; /*para centralizar o layout, ou seja, o container*/
+	padding:30px;
+	background-color:#CC4455;
+}
+*{ /*o * é um seletor universal*/
+	font-size:18px; /*a fonte que define a largura do container, quanto maior a fonte, mais a largura fica "elastica"*/
+	font-family:Verdana;
+	color:yellow;
+}
