@@ -1,0 +1,11 @@
+body{
+	background:linear-gradient(yellow,#9993FF,blue);
+	animation-name:body; /*noem da animação*/
+	animation-duration:15s; /*tempo de duração*/
+	animation-iteration-count:2; /*quantidade de vezes a ser executada*/
+}
+@Keyframes body{ /*para fazer animação utlizamos @keyframes*/
+	0%{background:url("ciro.gif")}
+	50%{background:url("gif.gif")}
+	100%{background:url("ciro1.gif")}
+}
