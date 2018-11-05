@@ -1,0 +1,36 @@
+body{
+	background-image:url("pp.jpg");
+}
+div{
+	border:2px solid #000000;
+}
+#container{
+	width:950px;
+	margin:0px auto;
+}
+#header{
+	height:80px;
+	background-color:#3342FF;
+	font-size:14pt;
+	text-align:center;
+	font-family:Verdana;
+	font-weight:bold;
+}
+#left{
+	float:left;
+	background-color:white;
+	width:230px;
+	height:255px;
+	font-family:Verdana;
+	font-weight:bold;
+}
+#content{
+	background-color:#FF3333;
+	
+	
+}
+#footer{
+	text-align:center;
+	font-weight:bold;
+	background-color:#55FF00;
+}
