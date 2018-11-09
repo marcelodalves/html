@@ -1,0 +1,86 @@
+#botao{
+	background:linear-gradient(yellow,orange,red);
+	border:none;
+	color:white;
+	font-family:Calibri;
+	font-size:60px;
+	border-radius:12px;
+	cursor:pointer;
+	animation-name:botao;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+#botao:hover{
+	background-color:#E8980C;
+	color:black;
+	
+}
+div{
+	border:4px solid black;
+	width:100px;
+	height:100px;
+	position:relative;
+	background-color:#CECECE;
+	animation-name:div;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+/*na animationd-direction, temos:
+normal - a animação é jogada para frente, esta é o padrão;
+reverse - a animação é reproduzida no sentido inverso, ou seja, para tras;
+alternate - a animação é jogada para frente primeiro, depois para atrás;
+alternate-reverse - a animação é jogada para trás primeiro, depois para frenet;*/
+
+
+@keyframes div{
+	0%{
+	background-color:yellow;
+	left:0px;
+	top:0px;
+	}
+	25%{
+	background-color:red;
+	left:200px;
+	top:100px;
+	}
+	50%{
+	background-color:blue;
+	left:200px;
+	top:20px;
+	}
+	100%{
+		background-color:white;
+		left:300px;
+		top:100px;
+	}
+	}
+body{
+	animation-name:body; 
+	animation-duration:10s; 
+	animation-iteration-count:2; 
+	}		
+@Keyframes body{
+	0%{background:url("ciro.gif")}
+	100%{background:url("trump.gif")}
+}
+form{
+	width:300px;
+	padding:0px;
+	text-align:center;
+	float:right;
+}
+legend{
+	color:#000000;
+	font-size:13pt;
+	font-family:Tahoma;
+	font-weight:bold;
+}
+fieldset{
+	border-color:#000000;
+	margin:10px;
+}
+
+	
+
+	
