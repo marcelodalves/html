@@ -1,0 +1,91 @@
+div{
+	border:2px solid #BBCCAA;
+	}
+
+#container{
+	width:950px;
+	margin:0px auto;
+	}
+
+#header{
+	height:20px;
+	background-color:#BBCCAA;
+	font-size:14pt;
+	text-align:center;
+	color:blue;
+	font-family:Verdana;
+	font-weight:bold
+}
+
+#left{
+	float:left;
+	width:442px;
+	height:255px;
+	background-image:url("gatinho.jpg");
+	color:#DDAACC;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:14pt;
+	
+}
+
+#content{
+	float:right;
+	width:500px;
+	height:255px;
+	color:#black;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:10pt;
+	background-color:#EEAACC;
+	text-align:center;
+}
+
+#footer{
+	clear:both;
+	background:#BBCCAA;
+	text-align:center;
+	color:blue;
+}
+#botao1{
+	background-color:#00FFCE;
+	color:#532BFF;
+	font-family:Georgia;
+	font-size:14pt;
+	border:none;
+	border-radius:50%;
+	padding:15px 32px;
+	cursor:pointer;
+	box-shadow:0 8px 16px;
+	text-shadow:0 8px 10px #FF0042, 0 0 8px #00AAFF
+}
+
+#botao1:hover{
+	background-color:#00FFFF;
+	color:#7B68EE;
+}
+
+#botao2{
+	background-color:#FFF;
+	color:#000;
+	font-family:Georgia;
+	font-size:14pt;
+	border:2px groove #4CAF50;
+	padding:15px 32px;
+	text-decoration:none
+}
+
+
+#botao{
+	background-color:#FFF;
+	color:#000;
+	font-family:Georgia;
+	font-size:14pt;
+	border:2px groove #4CAF50;
+	padding:5px 15px;
+	text-decoration:none
+}
+form{
+	width:200px;
+	margin:auto;
+}
